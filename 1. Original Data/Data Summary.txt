@@ -1,0 +1,44 @@
+E-commerce - Users of a French C2C fashion store
+
+Context
+There are a lot of unknowns when running an E-commerce store, even when you have analytics to guide your decisions.
+
+Users are an important factor in an e-commerce business.
+This is especially true in a C2C-oriented store, since they are both the suppliers (by uploading their products) AND the customers (by purchasing other user's articles).
+
+This dataset aims to serve as a benchmark for an e-commerce fashion store. Using this dataset, you may want to try and understand what you can expect of your users and determine in advance how your grows may be.
+
+For instance, if you see that most of your users are not very active, you may look into this dataset to compare your store's performance.
+If you think this kind of dataset may be useful or if you liked it, don't forget to show your support or appreciation with an upvote/comment. You may even include how you think this dataset might be of use to you. This way, I will be more aware of specific needs and be able to adapt my datasets to suits more your needs.
+
+This dataset is part of a preview of a much larger dataset. Please contact me for more.
+
+Content
+What is inside is more than just rows and columns. Make it easy for others to get started by describing how you acquired the data and what time period it represents, too.
+
+The data was scraped from a successful online C2C fashion store with over 9M registered users. The store was first launched in Europe around 2009 then expanded worldwide.
+
+Visitors vs Users:
+Visitors do not appear in this dataset. Only registered users are included. "Visitors" cannot purchase an article but can view the catalog.
+
+​
+
+Inspiration
+Questions you might want to answer using this dataset:
+
+Are e-commerce users interested in social network feature ?
+Are my users active enough (compared to those of this dataset) ?
+How likely are people from other countries to sign up in a C2C website ?
+How many users are likely to drop off after years of using my service ?
+​
+Exploratory analysis and insights
+I originally posted this dataset on Kaggle, where you can also look at my EDA (exploratory data analysis) to get some insights. Have. a look at the Notebook here and follow me on data.world and Kaggle for more.
+
+I would be happy to hear your thoughts about it.
+
+​
+
+License
+CC-BY-NC-SA 4.0
+
+For other licensing options, contact me.
