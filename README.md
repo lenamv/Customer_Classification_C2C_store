@@ -6,6 +6,4 @@ The data source is 'data.world' portal [https://data.world/jfreex/e-commerce-use
 
 The focus of the project is customers who are active users of the platform in selling field. To be consider as an active user, they should have at least one listed, sold, bought, liked or wishes product.  
 
-As the some very valuable customers are not relevant to common pattern of behaviour the clustering has performed in two levels: prevalent type of customers (2 types) and special cases (4 types). Moreover, there are 3 clients with stand out features.    
-
-Due to large number of location of customers and very different level of using the platform, countries that are location of less then 1% of total users are regarded as 'Other' in analysis.    
+Customers who follow common pattern of behaviour are segregate into 5 segments.  Moreover, 6 customers have stand out features, so they are treat apart from the clusters.     
