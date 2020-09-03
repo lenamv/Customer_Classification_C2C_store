@@ -158,6 +158,35 @@ print(f'Countries short list: {countries_list}')
 data_origin = data.copy()
 data_origin.head()
 
+# Replace the significant outliers by selected limit values
+max_socialNbFollowers = 200
+mask = data['socialNbFollowers'] > max_socialNbFollowers
+data['socialNbFollowers'] = data['socialNbFollowers'].mask(mask, max_socialNbFollowers)
+
+max_socialNbFollows = 500
+mask = data['socialNbFollows'] > max_socialNbFollows
+data['socialNbFollows'] = data['socialNbFollows'].mask(mask, max_socialNbFollows)
+
+max_socialProductsLiked = 1500
+mask = data['socialProductsLiked'] > max_socialProductsLiked
+data['socialProductsLiked'] = data['socialProductsLiked'].mask(mask, max_socialProductsLiked)
+
+max_productsListed = 100
+mask = data['productsListed'] > max_productsListed
+data['productsListed'] = data['productsListed'].mask(mask, max_productsListed)
+
+max_productsWished = 1000
+mask = data['productsWished'] > max_productsWished
+data['productsWished'] = data['productsWished'].mask(mask, max_productsWished)
+
+max_productsBought = 100
+mask = data['productsBought'] > max_productsBought
+data['productsBought'] = data['productsBought'].mask(mask, max_productsBought)
+
+max_productsSold = 100
+mask = data['productsSold'] > max_productsBought
+data['productsSold'] = data['productsSold'].mask(mask, max_productsSold)
+
 # Change the boolean column type to integer
 data[booleans_cols]=data[booleans_cols].astype(int)
 
@@ -206,8 +235,7 @@ df_scl['x']=df_pca[:,0]
 df_scl['y']=df_pca[:,1]
 
 # Pick out the most significant outliers
-outliers = df_scl[df_scl['x']>7]
-data.loc[outliers.index]
+outliers = df_scl[df_scl['y']>20]
 
 # Drop the selected outliers
 droped_outliers = data.loc[outliers.index]
@@ -223,7 +251,7 @@ print(data.shape)
 df = data[features].copy()
 
 # ### 2.4. Final Model
-param_kmeans_n_clusters = 5
+param_kmeans_n_clusters = 4
 
 # KMeans and Agglomerative Clustering give almost the same silhouette soefficient and distribution of samples for 5 clusters.
 # KMeans clustering shows the highest silhouette soefficient, and clusters are a bit more clearly separated on the scatter plot. 
