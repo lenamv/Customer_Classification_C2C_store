@@ -8,4 +8,4 @@ The data source is 'data.world' portal [https://data.world/jfreex/e-commerce-use
 
 The focus of the project is customers who are active users of the platform in selling field. To be consider as an active user, they should have at least one listed, sold, bought, liked or wishes product.  
 
-Customers who follow common pattern of behaviour are segregate into 5 segments.  Moreover, 6 customers have stand out features, so they are treat apart from the clusters.     
+Customers who follow common pattern of behaviour are segregate into 4 segments.  Moreover, 10 customers have stand out features, so they are treat apart.         
