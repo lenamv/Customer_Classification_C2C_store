@@ -1,8 +1,6 @@
 # Market Segmentation for a French (C2C) Fashion Store
 
-Market segmentation for a french (C2C) fashion store using cluster analysis to achieve more effective customer marketing via personalization.       
-
-The goal of the project is to find out a ratio of types of customers to support decision making in customer marketing.   
+Market segmentation for a french (C2C) fashion store using python, cluster analysis, unsupervised machine learning libraries to to support decision making in personalized marketing.       
 
 The data source is 'data.world' portal [https://data.world/jfreex/e-commerce-users-of-a-french-c2c-fashion-store](https://data.world/jfreex/e-commerce-users-of-a-french-c2c-fashion-store).  
 
